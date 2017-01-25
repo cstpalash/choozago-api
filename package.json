@@ -1,0 +1,23 @@
+{
+  "name": "choozago-api",
+  "version": "1.0.0",
+  "description": "APIs for choozago",
+  "main": "index.js",
+  "scripts": {
+    "test-getTicket": "claudia test-lambda --event testData/getTicket.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cstpalash/choozago-api.git"
+  },
+  "author": "Palash Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cstpalash/choozago-api/issues"
+  },
+  "homepage": "https://github.com/cstpalash/choozago-api#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "dynamodb-doc": "^1.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"action" : "getTicket",
+	"data" : {
+		"ticketId": "141f3a30-e2ce-11e6-97c1-3112656a563a"
+	}
+}
